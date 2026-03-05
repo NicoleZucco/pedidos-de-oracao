@@ -44,3 +44,7 @@ body {
     margin-bottom: 24px;
     color: white;
 }
+
+.botao:hover {
+    background-color: #3731a2;
+}
