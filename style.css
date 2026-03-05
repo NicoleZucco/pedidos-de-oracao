@@ -63,14 +63,14 @@ body {
 }
 
 .botao {
-    padding: 10px;
+    display: flex;
     background-color: #4F46E5;
+    height: 40px;
     border-radius: 8px;
-    border: 0;
     color: white;
+    text-align: center;
     cursor: pointer;
+    padding: 10px 121px;
+    color: white;
 }
 
-.botao:hover {
-    background-color: #3833a7;
-}

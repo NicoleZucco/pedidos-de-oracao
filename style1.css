@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F2F6F9;
+}
+
+.container {
+    background-color: white;
+    height: 200px;
+    max-width: 390px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.118);
+    margin: auto;
+    margin-top: 270px;
+    display: flex;
+    align-items: center;
+}
+
+.mensagem-confirmacao {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
