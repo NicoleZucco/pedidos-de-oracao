@@ -11,6 +11,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     height: 200px;
     max-width: 390px;
@@ -27,4 +29,18 @@ body {
     text-align: center;
     margin: auto;
     font-weight: bold;
+    font-size: 16px;
+}
+
+.botao {
+    display: flex;
+    background-color: #4F46E5;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 100px;
+    margin-bottom: 24px;
+    color: white;
 }
